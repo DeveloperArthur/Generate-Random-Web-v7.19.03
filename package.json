@@ -1,0 +1,8 @@
+{
+    "name": "Generate_Random_v4.18.11",
+    "version": "1.0.0",
+    "keywords": ["util", "functional", "server", "client", "browser"],
+    "author": "Arthur Almeida",
+    "contributors": [],
+    "dependencies": {}
+}
