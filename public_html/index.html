@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Generate Random ind DEV</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta author="Arthur dos Santos Almeida">
+        <!--Linkedin: https://www.linkedin.com/in/arthursantosalmeida/-->
+        <link rel="shortcut icon" href="C:\Users\Família\Documents\NetBeansProjects\Generate Random WEB v7.19.01\imgs\Iconcubic-Dnd-Dice-D12.ico" type="image/x-icon"/>
+        <link href="css\estilo.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        
+        <div align="center">
+
+            <font face="Bahnschrift Condensed"><div align="right">v7.19.01</div></font>
+            <img src="C:\Users\Família\Documents\NetBeansProjects\Generate Random WEB v7.19.01\imgs\Iconcubic-Dnd-Dice-D12.ico" title="Logo Generate Random" alt="Logo Generate Random" width="180" height="180">  			  
+            <font face="Bahnschrift Condensed"><h1>Generate Random</h1></font>
+            <font face="Bahnschrift Condensed"><h3>Ferramenta para gerar jogos em loterias da caixa de forma rápida e prática!</h3></font>
+            <font face="Bahnschrift Condensed"><h3>Selecione a opção do jogo e os números aparecerão logo abaixo!</h3></font>
+
+            <select onchange="gerarJogo();" id="numero" style="width:200px; height:30px;">
+                <option value="5">Quina</option>
+                <option value="6">Mega Sena</option>
+                <option value="10">Bolão 10 números</option>
+                <option value="15">Lotofácil</option>
+                <option value="20">Lotomania</option>
+            </select>
+            <div><br></div>
+            <font face="Bahnschrift Condensed"><h1 id="numerosGerados"></h1></font>
+            <font face="Bahnschrift Condensed"><h2 id="mensagemBoaSorte"></h2></font>
+
+            <script src="js\gerarJogos.js">gerarJogos();</script>
+
+        </div>
+    </body>
+</html>
