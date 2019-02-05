@@ -1,0 +1,11 @@
+div{
+    color: #4B0082
+}
+
+body {
+    background: url(https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-20810-wv6p8y_7b0d0a4b.jpeg?region=0,0,1600,768) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
